@@ -29,15 +29,13 @@ h2 {
     font-family: "Roboto", sans-serif;
     margin-top: 150px;
     animation: flyup 1.5s 1;
-    -webkit-animation-name: flyup; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation: flyup 1.5s 1; /* Safari 4.0 - 8.0 */
     animation-timing-function: ease;
     position: relative;
     animation: flyup 1.25s 1;
     animation-fill-mode: forwards;  /*kills it on the last frame*/
     opacity: 40%;
 }
-
 
 .filters a {
     font-family: "Roboto", sans-serif;
@@ -47,6 +45,24 @@ h2 {
     padding-right: 10px;
     position: relative;
     font-size: 1rem;
+}
+.prev-img {
+    height: 200px;
+    width: auto;
+}
+/* hover -> dim out */
+.item .item-wrap:after {
+    z-index: 2;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s all ease-in-out;
 }
 
 /* Standard Browsers */
