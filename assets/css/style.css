@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .nav-class {
     background-color: #1e2a3e; 
     color: white;
@@ -5,12 +9,73 @@
 }
 .navbar-light {
     border: white;
+    padding: 0%;
 }
 
 a.navbar-brand {
     color: #1e2a3e !important;
+    font-size: 1.7rem;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 1px 1px rgb(184, 180, 180);
+    font-style: italic;
+    font-weight: 700;
+}
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
 }
 
+.hello {
+    font-family: "Roboto", sans-serif;
+    margin-top: 150px;
+    animation: flyup 1.5s 1;
+    -webkit-animation-name: flyup; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-timing-function: ease;
+    position: relative;
+    animation: flyup 1.25s 1;
+    animation-fill-mode: forwards;  /*kills it on the last frame*/
+    opacity: 40%;
+}
+
+
+.filters a {
+    font-family: "Roboto", sans-serif;
+    color: black;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    font-size: 1rem;
+}
+
+/* Standard Browsers */
+@keyframes flyup {
+    0%  {top:200px;}
+    100% {top:0px;}
+    0% { opacity: 0;}
+    50% {opacity: .65;}
+    75% {opacity: .85;}
+    100% {opacity: 1;}
+  }
+/* Old Safari Browsers */
+@-webkit-keyframes flyup {
+    0%  {top:200px;}
+    100% {top:0px;}
+    0% { opacity: 0;}
+    50% {opacity: .65;}
+    75% {opacity: .85;}
+    100% {opacity: 1;}
+}
+/* IE and Edge Browsers */
+@-ms-keyframes flyup {
+    0%  {top:200px;}
+    100% {top:0px;}
+    0% { opacity: 0;}
+    50% {opacity: .65;}
+    75% {opacity: .85;}
+    100% {opacity: 1;}
+}
 /* Animated burger for collapsable navbar */
 .animated-burger {
     width: 30px;
@@ -21,33 +86,30 @@ a.navbar-brand {
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out; /*Safari*/
+    -moz-transition: .5s ease-in-out;   /*Motzila*/
+    -o-transition: .5s ease-in-out;    /*Opera*/
+    transition: .5s ease-in-out;      /*Standard*/
     cursor: pointer;
     }
 
 .animated-burger span {
     display: block;
     position: absolute;
+    background: #1e2a3e;
     height: 3px;
     width: 100%;
     border-radius: 9px;
     opacity: 1;
     left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);     /*Safari*/
+    -moz-transform: rotate(0deg);       /*Motzila*/
+    -o-transform: rotate(0deg);        /*Opera*/
+    transform: rotate(0deg);          /*Standard*/
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
-}
-
-.animated-burger span {
-    background: #1e2a3e;
 }
     
 .animated-burger span:nth-child(1) {
