@@ -46,14 +46,12 @@ h2 {
     font-size: 1rem;
 }
 
-.set-image {
+.set-image-txt {
   position: relative;
   text-align: center;
-  color: white;
 }
 .images {
-    background-color: #1e2a3e;
-    position: relative;
+    background-color: #1e2a3e; /* for darkening effect*/
     width: 100%;
     height: auto;
 }
@@ -66,11 +64,8 @@ h2 {
 .darken-txt {
     display: none;
 }
- hr {
-     border: 1px solid red;
- }
 
- .images:hover > .darken-txt {
+.images:hover > .darken-txt {
     display: block;
     font-weight: bolder;
     color: white;
@@ -80,6 +75,9 @@ h2 {
     transform: translate(-50%, -50%);    
 }
 
+hr {
+    border: 1px solid red;
+}
 /* Standard Browsers */
 @keyframes fadeup {
     0%  {top:200px;}
