@@ -44,6 +44,7 @@ h2 {
 .img-fluid {
     height: 300px;
     width: 350px;
+    box-shadow: 5px 5px 3px grey;   
 }
 
 .filters a {
