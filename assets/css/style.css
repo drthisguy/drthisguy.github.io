@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+    display: flex; flex-direction: column; /*for the flex container*/
+    height: 100vh;  /*flex container*/
+}
+
 .nav-class {
     background-color: #1e2a3e; 
     color: white;
@@ -19,6 +24,11 @@ a.navbar-brand {
     text-shadow: 1px 1px rgb(184, 180, 180);
     font-style: italic;
     font-weight: 700;
+}
+
+ /* pushes footer and navbar. centers content. */
+  .flex-container {
+    flex: 1 0 auto;
 }
 h2 {
     font-family: "Raleway", sans-serif;
@@ -88,6 +98,12 @@ h2 {
 
 hr {
     border: 1px solid red;
+}
+
+footer {  
+    background-color: #1e2a3e;
+    /* opacity: 0.8; */
+    flex-shrink: 0;
 }
 
 /* Standard Browsers */
