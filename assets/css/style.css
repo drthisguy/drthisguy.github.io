@@ -69,7 +69,7 @@ h5 {
     animation-fill-mode: forwards;  /*kills it on the last frame*/
 }
 
-.portfolio {
+.portfolio, .contact {
     font-family: "Roboto", sans-serif;
     margin-top: 50px;
     animation: fadeup 1.25s 1;
@@ -79,7 +79,7 @@ h5 {
     animation-fill-mode: forwards;  /*kills it on the last frame*/
 }
 
-.previews {
+.previews, .reach-out {
     animation: fadeup 1.75s 1;
     -webkit-animation: fadeup 1.75s 1; /* Safari 4.0 - 8.0 */
     animation-fill-mode: forwards;  /*kills it on the last frame*/
