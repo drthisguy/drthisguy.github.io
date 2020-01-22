@@ -28,12 +28,22 @@ h2 {
 .hello {
     font-family: "Roboto", sans-serif;
     margin-top: 150px;
-    animation: fadeup 1.5s 1;
-    -webkit-animation: fadeup 1.5s 1; /* Safari 4.0 - 8.0 */
+    animation: fadeup 1.25s 1;
+    -webkit-animation: fadeup 1.25s 1; /* Safari 4.0 - 8.0 */
     animation-timing-function: ease;
     position: relative;
-    animation: fadeup 1.25s 1;
     animation-fill-mode: forwards;  /*kills it on the last frame*/
+}
+
+.previews {
+    animation: fadeup 1.75s 1;
+    -webkit-animation: fadeup 1.75s 1; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;  /*kills it on the last frame*/
+    position: relative;
+}
+.img-fluid {
+    height: 300px;
+    width: 350px;
 }
 
 .filters a {
@@ -52,8 +62,8 @@ h2 {
 }
 .images {
     background-color: #1e2a3e; /* for darkening effect*/
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 300px;
 }
 
 /* hover -> dim out */
@@ -78,6 +88,7 @@ h2 {
 hr {
     border: 1px solid red;
 }
+
 /* Standard Browsers */
 @keyframes fadeup {
     0%  {top:200px;}
@@ -117,6 +128,7 @@ hr {
     transform: rotate(0deg);
     -webkit-transition: .5s ease-in-out; /*Safari*/
     -moz-transition: .5s ease-in-out;   /*Motzila*/
+    -o-transition: .5s ease-in-out;    /*Opera*/
     -o-transition: .5s ease-in-out;    /*Opera*/
     transition: .5s ease-in-out;      /*Standard*/
     cursor: pointer;
