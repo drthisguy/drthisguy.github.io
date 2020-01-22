@@ -56,12 +56,22 @@ h2 {
 
 h5 {
     font-style: italic;
-    
+
 }
 
 .hello {
     font-family: "Roboto", sans-serif;
     margin-top: 150px;
+    animation: fadeup 1.25s 1;
+    -webkit-animation: fadeup 1.25s 1; /* Safari 4.0 - 8.0 */
+    animation-timing-function: ease;
+    position: relative;
+    animation-fill-mode: forwards;  /*kills it on the last frame*/
+}
+
+.portfolio {
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
     animation: fadeup 1.25s 1;
     -webkit-animation: fadeup 1.25s 1; /* Safari 4.0 - 8.0 */
     animation-timing-function: ease;
