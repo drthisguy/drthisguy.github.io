@@ -3,21 +3,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    display: flex; flex-direction: column; /*for the flex container*/
+    display: flex; flex-direction: column; /*flex container*/
     height: 100vh;  /*flex container*/
 }
 
-#about {
+body#about {
     background-image: url('/assets/img/greyscaled.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 .nav-class {
     background-color: #1e2a3e; 
     color: white;
     border: white;
 }
+
 .navbar-light {
     border: white;
     padding: 0%;
@@ -36,6 +38,12 @@ a.navbar-brand {
   .flex-container {
     flex: 1 0 auto;
 }
+
+.jumbotron {
+    max-width: 50rem;
+    height: auto;
+}
+
 h2 {
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
@@ -57,6 +65,7 @@ h2 {
     animation-fill-mode: forwards;  /*kills it on the last frame*/
     position: relative;
 }
+
 .img-fluid {
     height: 300px;
     width: 350px;
@@ -77,6 +86,7 @@ h2 {
   position: relative;
   text-align: center;
 }
+
 .images {
     background-color: #1e2a3e; /* for darkening effect*/
     width: auto;
