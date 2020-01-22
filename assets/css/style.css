@@ -54,6 +54,11 @@ h2 {
     font-size: 2rem;
 }
 
+h5 {
+    font-style: italic;
+    
+}
+
 .hello {
     font-family: "Roboto", sans-serif;
     margin-top: 150px;
