@@ -1,8 +1,5 @@
-My Portfolio Website
-
-
-# Homework-7
-homework 1, 2 and now 7.
+# My Portfolio Website
+Personal developer portfolio.
 
 
 # Abstract
