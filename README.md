@@ -7,7 +7,7 @@ homework 1, 2 and now 7.
 
 # Abstract
 
-This project is for the purposes of showcasing my developer's profile page which will provide contact information as well as educational and vocational background information to prospective employers.  As of this point, surprisingly, the page uses almost no custome javascript whatsoever.  Just a litte to transform the animation of the hamburger icon for the dropdown navbar.  On the other hand there is a great deal of custom CSS. I know this is an ongoing project and will probably be very different in the end.  But for now, I think it's comming together nicely.  
+This project is for the purposes of showcasing my developer's profile page which will provide contact information as well as educational and vocational background information to prospective employers.  As of this point, surprisingly, the page uses almost no custom javascript whatsoever.  Just a little to transform the animation of the hamburger icon for the dropdown navbar.  On the other hand there is a great deal of custom CSS. I know this is an ongoing project and will probably be very different in the end.  But for now, I think it's coming together nicely.  
 
 # file manifest:
 
@@ -18,12 +18,12 @@ contact.html
 LICENSE 
 README.md 
 style.css,
-bootrap_simplex.min.css
+bootstrap_simplex.min.css
 mdb.min.css
 app.js
-bootrap.min.js
+bootstrap.min.js
 jquery.min.js
-greycaled.jps
+greyscaled.jps
 Page%Tyler_0120.pdf
 
 
@@ -46,7 +46,7 @@ https://user-images.githubusercontent.com/48693333/73025283-5036a480-3dfd-11ea-9
 Contact: page.c.tyler@gmail.com
 
 Known issues.
-Should have decent, cross-browser capability. With regards to CSS I've included @keyframes and the like for most of the popular browsers. Nonetheless, Edge and IE (of course) seem to move through the transistions too quickly. Other than that, there are no other know issues. 
+Should have decent, cross-browser capability. With regards to CSS I've included @keyframes and the like for most of the popular browsers. Nonetheless, Edge and IE (of course) seem to move through the transitions too quickly. Other than that, there are no other know issues. 
 
 sources:
 
