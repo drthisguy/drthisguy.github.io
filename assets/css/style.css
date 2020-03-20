@@ -141,6 +141,16 @@ hr {
     border: 1px solid red;
 }
 
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.htcs {
+    height: 100px;
+}
+
+
 footer {  
     background-color: #1e2a3e;
     margin-top: 20pt;
