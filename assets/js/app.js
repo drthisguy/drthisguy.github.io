@@ -6,4 +6,13 @@ $(document).ready(function () {
   });
 
 
+  //init flickity carousels
+  $('.carousel').flickity({
+    // options
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    lazyLoad: true,
+    fade: true
+  });
 });

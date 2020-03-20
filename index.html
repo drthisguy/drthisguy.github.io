@@ -10,6 +10,8 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Material Design Bootstrap -->
+<!-- Flickity Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
 <link rel="stylesheet" href="assets/css/mdb.min.css">
 <!-- Bootstrap core CSS (Simplex)-->
 <link rel="stylesheet" href="assets/css/bootstrap_simplex.min.css">
@@ -70,7 +72,7 @@
 
   <div class="flex-container">
     <div class="container hello">
-      <div class="row">
+      <div class="row spacing">
         <div class="col">
           <div class="row mb-5 align-items-center">
             <div class="col-lg-6 mb-lg-0">
@@ -91,9 +93,9 @@
       </div>
     </div>
 
-    <div class="container previews">
+    <div class="container previews carousel">
       <div class="row">
-        <div class="col col-md-4">
+        <div class="col-md-4 carousel-cell">
           <div class="set-image-txt">
             <div class="images">
               <div class="darken-txt">
@@ -101,15 +103,15 @@
                 <hr>
                 <h6>An Openweather API Application</h6>
               </div>
-              <a href="https://drthisguy.github.io/Homework-6" target="_blank" class="darken">
+              <a href="https://drthisguy.github.io/06-About-The-Weather" target="_blank" class="darken">
                 <img
-                  src="https://user-images.githubusercontent.com/48693333/71950454-4f6b0500-31a5-11ea-8df0-5fee265242f0.png"
+                  src="https://user-images.githubusercontent.com/48693333/77138879-145d3b80-6a4a-11ea-80c6-4a3bc3dc35e0.png"
                   target="_blank" class="img-fluid" alt="About The Weather"></a>
             </div>
           </div>
         </div>
 
-        <div class="col col-md-4">
+        <div class="col-md-4 carousel-cell">
           <div class="set-image-txt">
             <div class="images">
               <div class="darken-txt">
@@ -120,13 +122,13 @@
               <a href="https://pennypincha.herokuapp.com" class="darken" target="_blank">
                 <img
                   src="https://user-images.githubusercontent.com/48693333/77022098-139bab00-695f-11ea-8b6a-36cfdb1dee34.gif"
-                  class="img-fluid" alt="The Penny Pincher"></a>
+                  class="img-fluid " alt="The Penny Pincher"></a>
             </div>
           </div>
         </div>
 
 
-        <div class="col col-md-4">
+        <div class="col-md-4 carousel-cell">
           <div class="set-image-txt">
             <div class="images">
               <div class="darken-txt">
@@ -134,7 +136,7 @@
                 <hr>
                 <h6>A fun quiz game to test your knowledge</h6>
               </div>
-              <a href="https://drthisguy.github.io/Homework-4" target="_blank" class="darken">
+              <a href="https://drthisguy.github.io/04-Harry-Potter-Trivia-Game" target="_blank" class="darken">
                 <img
                   src="https://user-images.githubusercontent.com/48693333/72928515-1f377080-3d26-11ea-9767-dcf5568b370b.png"
                   class="img-fluid" alt="Harry Potter Trivia Game"></a>
@@ -142,8 +144,84 @@
           </div>
         </div>
       </div>
+        <div class="col-md-4 carousel-cell">
+          <div class="set-image-txt">
+            <div class="images">
+              <div class="darken-txt">
+                <h4>GitProfiler</h4>
+                <hr>
+                <h6>CLI to generate PDFs for any developer's profile from their GitHub usernames</h6>
+              </div>
+              <a href="https://github.com/drthisguy/08-Dev-Profile-Generator" class="darken" target="_blank">
+
+                <img src="https://user-images.githubusercontent.com/48693333/77002626-319ee680-6932-11ea-9763-070cc7cce6e5.gif" class="img-fluid"  alt="Dev PDF Generator"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="set-image-txt">
+            <div class="images">
+              <div class="darken-txt">
+                <h4>WishDish</h4>
+                <hr>
+                <h6>A restaurant application designed for speed</h6>
+              </div>
+              <a href="https://dioris-cpu.github.io/group-Project-1" class="darken" target="_blank">
+                <img
+                  src="https://user-images.githubusercontent.com/48693333/77028924-a7c23e00-6970-11ea-8a94-92daa2884025.png"
+                  class="img-fluid" alt="WishDish"></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="set-image-txt">
+            <div class="images">
+              <div class="darken-txt">
+                <h4>HR Express</h4>
+                <hr>
+                <h6>CLI content management system for company, HR departments</h6>
+              </div>
+              <a href="https://github.com/drthisguy/11-HR-Express" class="darken" target="_blank">
+
+                <img src="https://user-images.githubusercontent.com/48693333/77019460-f6fb7500-6956-11ea-93bb-7744ffd659a2.gif" class="img-fluid" alt="HR-Express"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
+
+  <div class="container skills">
+  <div class="row">
+    <div class="col md-2">
+      <div class="row">
+      <img src="/assets/img/js-logo.png" class="logo d-inline" alt="JavaScript">
+      <img src="/assets/img/react-logo.png" class="logo react d-inline" alt="JavaScript">
+    </div></div>
+    <div class="col md-2">
+      <img src="/assets/img/html_css.png" class="htcs" alt="JavaScript">
+    </div>
+    <div class="row">
+    <div class="col md-2">
+      <img src="/assets/img/nodejs-logo-sticker.jpg" class="logo" alt="JavaScript">
+      <img src="/assets/img/express.png" class="logo" alt="JavaScript">
+    </div></div>
+    <div class="col md-2">
+      <div class="row">
+      <img src="/assets/img/mysql.png" class="logo" alt="JavaScript">
+      <img src="/assets/img/sequelize.png" class="logo" alt="JavaScript">
+    </div></div>  
+    <div class="col md-2">
+      <div class="row">
+        <img src="/assets/img/mongoDB.png" class="logo mr-3" alt="JavaScript">
+        <img src="/assets/img/git.png" class="logo float-right" alt="JavaScript">
+    </div>
+    </div>
+  </div>
+</div>
+
 
   <footer class="page-footer font-small">
     <!-- Copyright -->
@@ -155,6 +233,8 @@
 </body>
 <!-- jQuery -->
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<!-- Flickity Carousel js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <!-- Custom JavaScript -->
