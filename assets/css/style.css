@@ -60,7 +60,7 @@ h5 {
 
 .hello {
     font-family: "Roboto", sans-serif;
-    margin-top: 150px;
+    margin-top: 110px;
     animation: fadeup 1.25s 1;
     -webkit-animation: fadeup 1.25s 1; /* Safari 4.0 - 8.0 */
     animation-timing-function: ease;
@@ -76,6 +76,22 @@ h5 {
     animation-timing-function: ease;
     position: relative;
     animation-fill-mode: forwards;  /*kills it on the last frame*/
+}
+
+.spacing {
+    height: 80px;
+}
+
+.carousel-cell {
+    width: 33.3%; /* half-width */
+    height: 300px;
+    counter-increment: carousel-cell;
+    pageDots: false
+}
+
+  /* cell number */
+  .gallery-cell:before {
+    content: counter(carousel-cell);
 }
 
 .previews, .reach-out {
