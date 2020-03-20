@@ -82,16 +82,12 @@ h5 {
     height: 80px;
 }
 
+/* carousel */
 .carousel-cell {
     width: 33.3%; /* half-width */
     height: 300px;
     counter-increment: carousel-cell;
     pageDots: false
-}
-
-  /* cell number */
-  .gallery-cell:before {
-    content: counter(carousel-cell);
 }
 
 .previews, .reach-out {
@@ -100,6 +96,15 @@ h5 {
     animation-fill-mode: forwards;  /*kills it on the last frame*/
     animation-timing-function: ease;
     position: relative;
+}
+
+.skills {
+    animation: fadein 4.5s 1;
+    -webkit-animation: fadein 4.5s 1; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;  /*kills it on the last frame*/
+    animation-timing-function: ease;
+    position: relative;
+    margin-top: 50pt;
 }
 
 .img-fluid {
@@ -199,6 +204,27 @@ footer {
     50% {opacity: .65;}
     75% {opacity: .85;}
     100% {opacity: 1;}
+}
+/* Standard Browsers */
+@keyframes fadein {
+    0% { opacity: 0;}
+    50% {opacity: .35;}
+    75% {opacity: .55;}
+    100% {opacity: .7;}
+  }
+/*  Safari */
+@-webkit-keyframes fadein {
+    0% { opacity: 0;}
+    50% {opacity: .35;}
+    75% {opacity: .55;}
+    100% {opacity: .7;}
+}
+/* IE and Edge */
+@-ms-keyframes fadein {
+    0% { opacity: 0;}
+    50% {opacity: .35;}
+    75% {opacity: .55;}
+    100% {opacity: .7;}
 }
 /* Animated burger for collapsable navbar */
 .animated-burger {
