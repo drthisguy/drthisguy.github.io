@@ -32,7 +32,7 @@ https://drthisguy.github.io/
 
 # Screen Grabs:
 
-![image](https://user-images.githubusercontent.com/48693333/73025158-12d21700-3dfd-11ea-9719-b6a64f466a20.png)
+![image](https://user-images.githubusercontent.com/48693333/77214735-cc402680-6ae6-11ea-88a1-5e0458bc433a.png)
 
 
 https://user-images.githubusercontent.com/48693333/73025158-12d21700-3dfd-11ea-9719-b6a64f466a20.png
